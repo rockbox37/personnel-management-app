@@ -17,12 +17,14 @@
         </thead>
         <tbody>
           {{#each model as |personnel|}}
+        
             <tr>
                 <td>{{personnel.id}}</td>
                 <td>{{personnel.firstName}}</td>
                 <td>{{personnel.lastName}}</td>
                 <td>{{personnel.yrs}}</td>
             </tr>
+
             {{/each}}
         </tbody>
     </table>
