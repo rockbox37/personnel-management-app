@@ -9,6 +9,66 @@ let personnel = [{
   firstName: 'Test',
   lastName: 'New',
   yrs: '7'
+}, {
+  id: '345',
+  firstName: 'Test',
+  lastName: 'New',
+  yrs: '7'
+}, {
+  id: '345',
+  firstName: 'Test',
+  lastName: 'New',
+  yrs: '7'
+}, {
+  id: '345',
+  firstName: 'Test',
+  lastName: 'New',
+  yrs: '7'
+}, {
+  id: '345',
+  firstName: 'Test',
+  lastName: 'New',
+  yrs: '7'
+}, {
+  id: '345',
+  firstName: 'Test',
+  lastName: 'New',
+  yrs: '7'
+}, {
+  id: '345',
+  firstName: 'Test',
+  lastName: 'New',
+  yrs: '7'
+}, {
+  id: '345',
+  firstName: 'Test',
+  lastName: 'New',
+  yrs: '7'
+}, {
+  id: '345',
+  firstName: 'Test',
+  lastName: 'New',
+  yrs: '7'
+}, {
+  id: '345',
+  firstName: 'Test',
+  lastName: 'New',
+  yrs: '7'
+}, {
+  id: '345',
+  firstName: 'Test',
+  lastName: 'New',
+  yrs: '7'
+}, {
+  id: '345',
+  firstName: 'Test',
+  lastName: 'New',
+  yrs: '7'
+}, {
+  id: '345',
+  firstName: 'Test',
+  lastName: 'New',
+  yrs: '7'
 }]
 export default Ember.Route.extend({
   model() {

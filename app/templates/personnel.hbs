@@ -1,4 +1,3 @@
-
 <div class="container-fluid">
     <div class="row">
       <div class="col-sm-2">
@@ -7,12 +6,13 @@
       <div class="col-sm-10">
 
         <div class="col-sm-12">
-          <h2>Active Personnel</h2>
+          <h4>Active Personnel</h4>
           <hr>
         <div class="bs-example">
             <table class="table">
                 <thead>
                     <tr>
+                        <th>Edit</th>
                         <th>id</th>
                         <th>First Name</th>
                         <th>Last Name</th>
@@ -23,6 +23,13 @@
                   {{#each model as |personnel|}}
 
                     <tr>
+                        <td>
+
+                        <a href="#">
+                        <span class="glyphicon glyphicon-plus"></span>
+                        </a>
+
+                        </td>
                         <td>{{personnel.id}}</td>
                         <td>{{personnel.firstName}}</td>
                         <td>{{personnel.lastName}}</td>
