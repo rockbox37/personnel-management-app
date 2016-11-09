@@ -11,6 +11,7 @@ Router.map(function() {
   this.route('insights');
   this.route('main',{ path: '/' });
   this.route('add');
+  this.route('decision');
 });
 
 export default Router;
