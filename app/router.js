@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('personnel');
   this.route('insights');
   this.route('main',{ path: '/' });
+  this.route('add');
 });
 
 export default Router;
